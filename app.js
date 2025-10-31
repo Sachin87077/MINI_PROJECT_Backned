@@ -14,6 +14,8 @@ app.use(cookieParser());
 
 
 app.get('/',(req,res)=>{
+    res.render("index");
+    
 
 
 
